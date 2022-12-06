@@ -1,0 +1,78 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.pTitulo{
+font-size: 35px;
+margin-left: 10px;
+}
+p{
+    margin-left: 10px;
+
+}
+img{
+    position: relative; 
+    width: 120px;
+}
+
+section {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
+  
+  section p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  
+  section h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    
+  }
+  
+  section div {
+    height: 200px;
+    width: 250px;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    border-radius: 14px;
+    min-width: 250px;
+    box-shadow: 12px 0px 32px -12px rgb(63, 2, 2);
+    margin-left: -130px;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+  }
+  
+  section div:nth-child(1) {
+    background: #580c00;
+  }
+  
+  section div:nth-child(2) {
+    background: #700800;
+  }
+  
+  section div:nth-child(3) {
+    background: #bd0e02;
+  }
+  
+  section div:nth-child(4) {
+    background: #f01202;
+  }
+  
+  section div:nth-child(5) {
+    background: #f2564b;
+  }
+  
+  section div:hover {
+    transform: translateY(-16px) rotate(3deg);
+  }
+  section div:hover ~ div {
+    transform: translateX(130px);
+  }
