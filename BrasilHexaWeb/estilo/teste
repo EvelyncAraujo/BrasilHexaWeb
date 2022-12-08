@@ -195,3 +195,10 @@ toggle.checked = initialState;
 toggle.addEventListener('change', function() {
   localStorage.setItem('toggleState', toggle.checked);
 });
+
+
+<p class="pTitulo"></p>
+<p>O estádio 974 fica à beira-mar, em Doha, na capital do país. Com capacidade para até 40 mil pessoas, foi construído utilizando contêineres marítimos, como forma de homenagear a atividade portuária da cidade. Além disso, 974 também é o código de discagem internacional do Catar.
+
+  É o primeiro estádio da Fifa que pode ser completamente desmontado após o evento e remontado da mesma forma em outro lugar. Seus materiais também podem ser reaproveitados para construir outras estruturas.
+  </p>

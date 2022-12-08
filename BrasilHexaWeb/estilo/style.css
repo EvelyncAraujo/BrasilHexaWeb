@@ -8,13 +8,16 @@ h2{
 font-size: 35px;
 margin-left: 10px;
 }
+.h1{
+  font-size: 19px;
+}
 p{
+ 
     margin-left: 10px;
 
 }
 img{
-    position: relative; 
-    width: 120px;
+    width: 100%;
 }
 
 section {
@@ -51,24 +54,34 @@ section {
   }
   
   section div:nth-child(1) {
-    background: #580c00;
+    background: #5999dc;
   }
   
   section div:nth-child(2) {
-    background: #700800;
+    background: #67AEFA;
   }
   
   section div:nth-child(3) {
-    background: #bd0e02;
+    background: #76b8ff;
   }
   
   section div:nth-child(4) {
-    background: #f01202;
+    background:#d9c875;
   }
   
   section div:nth-child(5) {
-    background: #f2564b;
+    background:#ead87b;
   }
+  section div:nth-child(6) {
+    background:#f0e08c;
+  }
+  section div:nth-child(7) {
+    background: #87ad79;
+  }
+  section div:nth-child(8) {
+    background: #a5d195;
+  }
+  
   
   section div:hover {
     transform: translateY(-16px) rotate(3deg);
